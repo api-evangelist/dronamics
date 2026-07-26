@@ -1,8 +1,31 @@
 aid: dronamics
 name: Dronamics
-description: Dronamics is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dronamics is a European deep-tech company that designs, builds, and operates
+  autonomous long-range cargo drones for middle-mile logistics. Its flagship
+  aircraft, The Black Swan, is a remotely piloted UAV that carries up to 350 kg
+  (770 lb) of cargo over distances up to 2,500 km (1,550 mi), enabling same-day,
+  cross-border, point-to-point deliveries that are faster, cheaper, and lower in
+  CO2 emissions than traditional air freight. Founded in 2014 in Sofia, Bulgaria
+  by brothers Svilen and Konstantin Rangelov and operating as Dronamics Group
+  Limited, the company is building the world's first cargo drone airline,
+  operating a proprietary drone fleet from a network of low-cost droneports. The
+  public dronamics.com marketing site is built on Wix and exposes a Wix Site MCP
+  endpoint for agentic access; Dronamics does not publish a developer-facing
+  logistics API, OpenAPI, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dronamics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/ffb852_9b241796c89941089c6ff49b87cdfc3d~mv2.jpg/v1/fill/w_2500,h_1406,al_c/ffb852_9b241796c89941089c6ff49b87cdfc3d~mv2.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Drones
+- UAV
+- Cargo
+- Logistics
+- Air Freight
+- Middle-Mile
+- Delivery
+- Aerospace
+- Deep Tech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dronamics-domain-security.yml
+- type: Website
+  url: https://www.dronamics.com/
+- type: Blog
+  url: https://www.dronamics.com/newsroom
+- type: Support
+  url: https://www.dronamics.com/contact
+- type: PrivacyPolicy
+  url: https://www.dronamics.com/privacy-policy
+- type: LLMsTxt
+  url: llms/dronamics-llms.txt
+- type: MCPServer
+  url: mcp/dronamics-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
